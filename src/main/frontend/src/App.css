@@ -57,7 +57,9 @@ font-size: 30px;
 .result{
 	font-size: 16px !important;
 	height: 700px;
+    overflow: scroll;
 }
+
 .resultList{
 	line-height: 20px;
 	list-style: none;
@@ -94,27 +96,26 @@ hr {
 .FIZZBUZZ{
 	line-height: 30px;
 	list-style: none;
-	color: chocolate,
-	list-style: none;
+	color: chocolate
+
 }
 .FIZZ{
 	line-height: 30px;
 	list-style: none;
-	color: darkgreen,
-	list-style : none;
+	color: darkgreen
+	
 }
 
 .BUZZ{
 	line-height: 30px;
 	list-style: none;
-	color: darkgreen,
-	list-style: none;
+	color: darkgreen
 }
 
 .INVALID ITEM{
 	line-height: 30px;
 	list-style: none;
-	color: red
+	
 }
 .titleDiv{
 	text-align: center;

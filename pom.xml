@@ -14,7 +14,7 @@
 	<name>demo</name>
 	<description>Web Application for FizzBuzz</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 <frontend-src-dir>${project.basedir}/src/main/frontend</frontend-src-dir>
    <node.version>v16.14.0</node.version>
    <yarn.version>v1.16.0</yarn.version>
@@ -136,12 +136,7 @@
        <groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-maven-plugin</artifactId>
 	<configuration>
-		<excludes>
-			<exclude>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-			</exclude>
-		</excludes>
+		
 	</configuration>
 </plugin> 
 		</plugins>

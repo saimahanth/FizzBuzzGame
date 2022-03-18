@@ -133,7 +133,7 @@ function App() {
 				<div className="resultBox">
 					{
 						data.map((item) => {
-							return <li className ={`${item}`}> {item}</li>
+							return <li className ={`${item}`} resultList> {item}</li>
 						})}
 				</div>
 				<label className="error-message"> {resultErrorSate}</label>
