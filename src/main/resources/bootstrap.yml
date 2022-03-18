@@ -1,0 +1,9 @@
+swagger:
+  base:
+    package: com.bestbuy.fizzbuzz
+  api:
+    title: Fizz Buzz Game
+    description: API to play Fizz Buzz game
+    version: "@project.version@"
+    termsOfServiceUrl: http://swagger.io
+    
